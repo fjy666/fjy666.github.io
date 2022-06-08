@@ -5,14 +5,19 @@
   
 
   
-  <title>Tag: 数论 | fjy666 的小窝</title>
+  <title>二次函数一般式和顶点式之间的转换 | fjy666 的小窝</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="fjy666 的小窝">
-<meta property="og:url" content="http://example.com/tags/%E6%95%B0%E8%AE%BA/index.html">
+  <meta name="description" content="二次函数基础$y&#x3D;ax^2+bx+c$ 为二次函数的一般式，其中 $a\neq 0$。但是有一种顶点式叫做 $y&#x3D;a(x-h)^2+k$，这种东西在用的时候方便级了。所以我们考虑怎么根据 $a,b,c$ 来求 $a,h,k$。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="二次函数一般式和顶点式之间的转换">
+<meta property="og:url" content="http://example.com/2022/06/08/quadratic-functions-convert/index.html">
 <meta property="og:site_name" content="fjy666 的小窝">
+<meta property="og:description" content="二次函数基础$y&#x3D;ax^2+bx+c$ 为二次函数的一般式，其中 $a\neq 0$。但是有一种顶点式叫做 $y&#x3D;a(x-h)^2+k$，这种东西在用的时候方便级了。所以我们考虑怎么根据 $a,b,c$ 来求 $a,h,k$。">
 <meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2022-06-07T16:00:00.000Z">
+<meta property="article:modified_time" content="2022-06-08T13:21:53.791Z">
 <meta property="article:author" content="fjy666">
+<meta property="article:tag" content="数学">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternate" href="/atom.xml" title="fjy666 的小窝" type="application/atom+xml">
@@ -62,59 +67,60 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-  
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2022" class="archive-year">2022</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2022/06/08/How-to-sieve-multiplicative-functions-in-linear-time/" class="archive-article-date">
-  <time datetime="2022-06-07T16:00:00.000Z" itemprop="datePublished">Jun 8</time>
+        <section id="main"><article id="post-quadratic-functions-convert" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2022/06/08/quadratic-functions-convert/" class="article-date">
+  <time datetime="2022-06-07T16:00:00.000Z" itemprop="datePublished">2022-06-08</time>
 </a>
-      
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2022/06/08/How-to-sieve-multiplicative-functions-in-linear-time/">如何在 $\mathcal{O}(n)$ 时间内筛积性函数</a>
+    <h1 class="article-title" itemprop="name">
+      二次函数一般式和顶点式之间的转换
     </h1>
   
 
-    </header>
-  </div>
-</article>
-  
+      </header>
     
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2022/06/08/math-sqrt/" class="archive-article-date">
-  <time datetime="2022-06-07T16:00:00.000Z" itemprop="datePublished">Jun 8</time>
-</a>
+    <div class="article-entry" itemprop="articleBody">
       
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2022/06/08/math-sqrt/">如何在 $\mathcal{O}(n)$ 时间内筛积性函数</a>
-    </h1>
-  
+        <h2 id="二次函数基础"><a href="#二次函数基础" class="headerlink" title="二次函数基础"></a>二次函数基础</h2><p>$y=ax^2+bx+c$ 为二次函数的一般式，其中 $a\neq 0$。<br>但是有一种顶点式叫做 $y=a(x-h)^2+k$，这种东西在用的时候方便级了。<br>所以我们考虑怎么根据 $a,b,c$ 来求 $a,h,k$。  </p>
+<span id="more"></span>
+<h2 id="推一波式子"><a href="#推一波式子" class="headerlink" title="推一波式子"></a>推一波式子</h2><p>$$\begin{aligned}<br>y&amp;=ax^2+bx+c\&amp;=a(x^2+\dfrac{b}{a}x)+c\<br> &amp;=a(x^2+\dfrac{b}{a}x+(\dfrac{b}{2a})^2)+c-a\times(\dfrac{b}{2a})^2\<br> &amp;=a(x+\dfrac{b}{2a})^2+(c-a\times\dfrac{b^2}{4a^2})\\\\therefore &amp;\begin{cases}a=a,\h=-\dfrac{b}{2a},\k=(c-\dfrac{b^2}{4a})=\dfrac{4ac-b^2}{4a}\end{cases}\end{aligned}$$</p>
 
-    </header>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2022/06/08/quadratic-functions-convert/" data-id="cl45mgo020004hkva10bv3qf6" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%95%B0%E5%AD%A6/" rel="tag">数学</a></li></ul>
+
+    </footer>
   </div>
-</article>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2022/06/08/quadratic-equation-with-one-unknown/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          二次方程
+        
+      </div>
+    </a>
   
   
-    </div></section>
-  
+</nav>
 
+  
+</article>
 
 </section>
         
